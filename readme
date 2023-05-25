@@ -1,0 +1,30 @@
+o create a simple webpage with the title "Riesgos Demo", you'll need an HTML file and optionally a JavaScript file. Here's the code for both:
+
+1. Create an HTML file (index.html):
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riesgos Demo</title>
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <h1>Riesgos Demo</h1>
+</body>
+</html>
+```
+
+2. Create a JavaScript file (main.js):
+
+```javascript
+document.addEventListener('DOMContentLoaded', () => {
+    console.log('Riesgos Demo page loaded');
+});
+```
+
+To launch the webpage, simply open the `index.html` file in your web browser. The JavaScript code in `main.js` will run when the page is loaded, and you'll see the message "Riesgos Demo page loaded" in the browser console.
+
+These two files are the minimum required to create and launch a simple webpage with the title "Riesgos Demo". You can expand the functionality and design by adding more HTML, CSS, and JavaScript as needed.
